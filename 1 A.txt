@@ -1,0 +1,33 @@
+1A.
+	1. value of argv: (char **) 0x7fffffffdee8
+
+	2. value pointed to argv: 0x7fffffffe251 "/home/randheer/Desktop/7th sem/cdp/lab2/task"
+
+	3. address of main : 0x400716.
+
+	4. info stack : main (argc=2, argv=0x7fffffffdee8) at task1.c:5
+
+	5 info frame : It gives information of stack and local variable. output is:
+
+			Stack level 0, frame at 0x7fffffffde10:
+		rip = 0x40072f in main (task1.c:5); saved rip = 0x7ffff7a2d830
+		source language c.
+		Arglist at 0x7fffffffde00, args: argc=2, argv=0x7fffffffdee8
+		Locals at 0x7fffffffde00, Previous frame's sp is 0x7fffffffde10
+		Saved registers:
+		rbx at 0x7fffffffddf8, rbp at 0x7fffffffde00, rip at 0x7fffffffde08
+
+
+
+1B. 
+		1. file format: elf64-x86-64
+
+		2. architecture: i386:x86-64	
+
+
+		3. .text, .plt, .init, .interp,.gnu.hash,
+
+		4. Address of main : 0000000000400716
+		 section: .text	
+
+		5. stack segment is in plt section .
